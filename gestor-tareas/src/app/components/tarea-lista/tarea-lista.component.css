@@ -1,0 +1,12 @@
+.lista{
+    margin-top: 20px;
+}
+.lista h2{
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+.tareas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

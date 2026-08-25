@@ -1,0 +1,11 @@
+<article class="tarjeta">
+    <span class="icono">📝</span>
+    <h3> {{ tarea.titulo }}</h3>
+    <p> {{ tarea.descripcion }}</p>
+    <p> Prioridad: {{ tarea.prioridad }}</p>
+    <p> Estado: <strong> {{ tarea.estado }}</strong></p>
+    <div class="acciones">
+        <button class="editar" (click)="editar.emit(tarea)"> Editar </button>
+        <button class="eliminar" (click)="eliminar.emit(tarea.id)"> Eliminar </button>
+    </div>
+</article>

@@ -1,0 +1,9 @@
+<app-navbar></app-navbar>
+<main class="contenedor">
+  <header> GESTOR DE TAREAS 
+  <p> Organiza y administra tus tareas de manera eficiente.</p>
+</header>
+<app-tarea-formulario (guardar)="agregarTarea($event)">
+</app-tarea-formulario>
+<app-tarea-lista [tareas]="tareas" (editar)="editarTarea($event)" (eliminar)="eliminarTarea($event)"></app-tarea-lista>
+</main>

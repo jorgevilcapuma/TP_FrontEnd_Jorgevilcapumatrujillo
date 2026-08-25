@@ -1,0 +1,43 @@
+.tarjeta {
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #f1f5f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icono {
+    font-size: 24px;
+}
+
+.tarjeta h3 {
+    color: #16a34a;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    color: #475569;
+}
+
+.acciones {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editar {
+    background-color: #facc15;
+}
+
+.eliminar {
+    background-color: #ef4444;
+}

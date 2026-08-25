@@ -1,0 +1,6 @@
+<section class="lista">
+    <h2> Lista de Tareas</h2>
+    @for ( tarea of tareas; track tarea.id){
+        <app-tarea-card [tarea]="tarea" (editar)="editar.emit($event)" (eliminar)="eliminar.emit($event)"></app-tarea-card>
+    }
+</section>
